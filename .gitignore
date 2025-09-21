@@ -1,11 +1,27 @@
-Python
-pycache/
-*.py[cod]
-*$py.class
-
-Virtual environment
+# Python cache & virtual env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
 venv/
-*.env
+.venv/
 
-Streamlit
+# Jupyter / Streamlit cache
+.ipynb_checkpoints/
 .streamlit/
+
+# Model & büyük dosyalar
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Pip bootstrap script (istemiyorsan)
+get-pip.py
